@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="701.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+   <children>
+      <Label layoutX="196.0" layoutY="14.0" text="Simple Java App Runner">
+         <font>
+            <Font name="Noto Sans Mono CJK TC Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtInputCode" layoutX="41.0" layoutY="89.0" prefHeight="223.0" prefWidth="519.0" />
+      <Label layoutX="48.0" layoutY="62.0" text="Enter Your Code Snippet">
+         <font>
+            <Font name="Noto Sans CJK JP Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnExecuteCode" layoutX="242.0" layoutY="338.0" mnemonicParsing="false" onAction="#btnExecute_OnAction" style="-fx-background-color: #2F2FA2;" text="Execute Code" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="txtOutputCode" layoutX="47.0" layoutY="407.0" prefHeight="223.0" prefWidth="519.0" />
+      <Label layoutX="54.0" layoutY="380.0" text="Output">
+         <font>
+            <Font name="Noto Sans CJK JP Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutY="671.0" prefHeight="16.0" prefWidth="56.0" text="Version 1.0.0" />
+      <Label layoutX="91.0" layoutY="679.0" text="Copyright © copy; 2022 Chamal Peiris. All rights reserved." textFill="#4900bf" />
+   </children>
+</AnchorPane>
